@@ -14,6 +14,10 @@ Derived aggregates, metric definitions and non-identifying reporting views.
 - Outputs: Aggregated indicators without raw CV or application content.
 - Dependencies: versioned events from operational services.
 
+## Example
+
+For one authorized user journey, the service can derive a funnel such as: 42 jobs analyzed, 12 shortlisted, 5 resumes validated, 3 applications submitted and 1 interview recorded. It stores the metric dimensions and aggregate counts, not the raw resume or application text.
+
 ## Contract rules
 
 - APIs and events are versioned.
